@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 
 function App() {
@@ -6,16 +6,18 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <h2 style={{margin: '10px 10px'}}>Tall & Tapered</h2>
+        <p style={{margin: '10px 10px', fontSize: '.9rem'}}>
+        Lifestyle Brand For Guys 6'3"+ <br/> Tall Clothing Line Coming Soon...
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.instagram.com/tallandtapered/"
           target="_blank"
           rel="noopener noreferrer"
+          style={{margin: '10px 10px', fontSize: '.9rem'}}
         >
-          Learn React
+          Check Us Out On Instagram
         </a>
       </header>
     </div>
